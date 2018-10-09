@@ -16,7 +16,7 @@ class Todo:
         return self.todo_list
 
     def show_task(self):
-        """ show all the task in the todo list"""
+        """ show all the task in the users todo list"""
         return self.todo_list
 
     def delete_task(self, todo_id):
