@@ -20,7 +20,7 @@ class Todo:
         return self.todo_list
 
     def delete_task(self, todo_id):
-        """delete the task from my todo list """
+        """delete the task from my todo list if its done """
         if 0 < todo_id <= len(self.todo_list):
             task = [task for task in self.todo_list if task["id"] == todo_id]
             self.todo_list.remove(task[0])
