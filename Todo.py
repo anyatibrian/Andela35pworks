@@ -6,7 +6,7 @@ class Todo:
         self.todo_list = []
 
     def add_task(self, name, created_at=strftime("%Y-%m-%d %H:%M:%S", gmtime())):
-        """enables the user to add his or her task to the to do list"""
+        """enables the user to add his or her task to the  list"""
         dict_task = {
             'id': len(self.todo_list) + 1,
             'name': name,
