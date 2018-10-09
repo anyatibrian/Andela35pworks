@@ -44,7 +44,7 @@ class HomeTodo(Todo):
         return self.todo_list
 
     def show_single(self, task_id):
-        """show single todo task """
+        """show single todo task in the todo list"""
         if 0 < task_id <= len(self.todo_list):
             tasks = [task for task in self.todo_list if task['id'] == task_id]
             return tasks[0]
